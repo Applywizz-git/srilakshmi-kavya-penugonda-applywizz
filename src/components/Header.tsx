@@ -137,7 +137,7 @@ export default function Header() {
                 className="p-2 rounded-lg glass hover:bg-primary/10 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                aria-label={`Switch to ${theme === 'light' ? 'light' : 'dark'} theme`}
+                aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
               >
                 {theme === 'light' ? (
                   <Moon className="w-5 h-5" />
